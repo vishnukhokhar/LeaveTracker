@@ -1,0 +1,13 @@
+.glass-box {
+  background: rgba(220, 220, 220, 0.3); /* Semi-transparent background */
+  border-radius: 25px; /* Rounded corners */
+  backdrop-filter: blur(10px); /* Blurring effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border */
+  margin-top: 20px;
+}
+
+* {
+  overflow-x: hidden;
+}
